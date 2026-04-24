@@ -1,158 +1,222 @@
 <div align="center">
-🏥 Healthcare Diagnosis & Financial Analysis
+
+# 🏥 Healthcare Diagnosis & Financial Analysis
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00B4D8&center=true&vCenter=true&width=700&lines=End-to-End+Healthcare+Analytics+Pipeline;55%2C500+Patient+Records+%7C+%241.42B+Revenue;Python+%7C+SQL+%7C+Power+BI+%7C+ReportLab" alt="Typing SVG" />
+
 <br/>
+
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![ReportLab](https://img.shields.io/badge/ReportLab-PDF_Report-CC0000?style=for-the-badge&logoColor=white)
+
 <br/>
+
 > **End-to-end industry-level healthcare analytics** — from raw data to executive report.
 > Covering 55,500 patient records across 6 conditions, 5 insurers, and 6 years (2019–2024).
+
 <br/>
-![View Notebooks](https://img.shields.io/badge/📓_View-Notebooks-blue?style=flat-square)
-![SQL Queries](https://img.shields.io/badge/🗄️_View-SQL_Layer-green?style=flat-square)
-![Business Report](https://img.shields.io/badge/📋_View-Business_Report-red?style=flat-square)
-![Dashboard](https://img.shields.io/badge/📊_View-Power_BI_Dashboard-yellow?style=flat-square)
+
+![Notebooks](https://img.shields.io/badge/View-Notebooks-blue?style=flat-square)
+![SQL](https://img.shields.io/badge/View-SQL_Layer-green?style=flat-square)
+![Report](https://img.shields.io/badge/View-Business_Report-red?style=flat-square)
+![Dashboard](https://img.shields.io/badge/View-Power_BI_Dashboard-F2C811?style=flat-square)
+
 </div>
+
 ---
-📌 Project Overview
-A complete, production-grade data analytics project analysing 55,500 patient records across 6 medical conditions, 5 insurance providers, and 6 years (2019–2024).
-This project covers the full analytics pipeline:
+
+## 📌 Project Overview
+
+A complete, **production-grade data analytics project** analysing **55,500 patient records** across 6 medical conditions, 5 insurance providers, and 6 years (2019–2024).
+
+This project covers the **full analytics pipeline:**
+
 ```
 Raw Data Ingestion  →  Python EDA  →  SQL Analytics Layer  →  Power BI Dashboard  →  Executive PDF Report
 ```
-Built to demonstrate industry-level skills in data cleaning, exploratory data analysis, SQL querying, business intelligence, and data storytelling.
+
+Built to demonstrate industry-level skills in **data cleaning**, **exploratory data analysis**, **SQL querying**, **business intelligence**, and **data storytelling**.
+
 ---
-📊 Dataset at a Glance
+
+## 📊 Dataset at a Glance
+
 <div align="center">
-Metric	Value
-🧑‍⚕️ Total Patients	`55,500`
-💰 Total Revenue	`$1.42 Billion`
-🧾 Average Billing	`$25,590 per patient`
-🛏️ Avg Length of Stay	`15.5 days`
-🔬 Abnormal Test Rate	`33.6%`
-📅 Date Range	`2019 – 2024`
-🦠 Medical Conditions	`6` (Cancer, Diabetes, Obesity, Asthma, Hypertension, Arthritis)
-🏦 Insurance Providers	`5` (Cigna, Medicare, Blue Cross, UnitedHealthcare, Aetna)
+
+| Metric | Value |
+|:---|:---:|
+| Total Patients | `55,500` |
+| Total Revenue | `$1.42 Billion` |
+| Average Billing | `$25,590 per patient` |
+| Avg Length of Stay | `15.5 days` |
+| Abnormal Test Rate | `33.6%` |
+| Date Range | `2019 – 2024` |
+| Medical Conditions | `6` — Cancer, Diabetes, Obesity, Asthma, Hypertension, Arthritis |
+| Insurance Providers | `5` — Cigna, Medicare, Blue Cross, UnitedHealthcare, Aetna |
+
 </div>
+
 ---
-💡 Key Findings
+
+## 💡 Key Findings
+
 <details open>
-<summary><b>🔍 Click to expand findings</b></summary>
+<summary><b>Click to expand all findings</b></summary>
+
 <br/>
-> ### 🔴 Finding 1 — Obesity Is the Most Expensive Condition
-> Average billing of **$25,860** — highest across all 6 conditions. Cost-per-day of **$3,456** also leads the dataset.
-> ### 📉 Finding 2 — Billing & Length of Stay Are Uncorrelated
-> Pearson correlation of **-0.006** — effectively zero. Cost is driven by **condition severity and treatment type**, not duration.
-> ### ⚖️ Finding 3 — All Five Insurers Carry Equal Financial Load
-> Revenue ranges from **$278.9M (Aetna)** to **$287.2M (Cigna)** — a spread of under 3%. Volume is equally balanced.
-> ### 🧪 Finding 4 — One-Third of Patients Have Abnormal Test Results
-> **33.6%** overall abnormal rate. Arthritis **(34.3%)** and Diabetes **(34.0%)** lead — a critical clinical quality signal.
-> ### 🚨 Finding 5 — Emergency Admissions Are High at 32.9%
-> Near-equal split across Emergency **(32.9%)**, Urgent **(33.4%)**, and Elective **(33.5%)** — indicating high acute care burden.
-> ### ⚠️ Finding 6 — 108 Negative Billing Records Flagged
-> Total value: **-$130,472**. Likely insurance credits or refunds. Retained for audit, excluded from financial aggregations.
-</details>
+
+**Finding 1 — Obesity Is the Most Expensive Condition**
+Average billing of **$25,860** — highest across all 6 conditions. Cost-per-day of **$3,456** also leads the dataset.
+
 ---
-🔄 Project Workflow
+
+**Finding 2 — Billing and Length of Stay Are Uncorrelated**
+Pearson correlation of **-0.006** — effectively zero. Cost is driven by **condition severity and treatment type**, not duration.
+
+---
+
+**Finding 3 — All Five Insurers Carry Equal Financial Load**
+Revenue ranges from **$278.9M (Aetna)** to **$287.2M (Cigna)** — a spread of under 3%. Volume is equally balanced.
+
+---
+
+**Finding 4 — One-Third of Patients Have Abnormal Test Results**
+**33.6%** overall abnormal rate. Arthritis **(34.3%)** and Diabetes **(34.0%)** lead — a critical clinical quality signal.
+
+---
+
+**Finding 5 — Emergency Admissions Are High at 32.9%**
+Near-equal split across Emergency **(32.9%)**, Urgent **(33.4%)**, and Elective **(33.5%)** — indicating high acute care burden.
+
+---
+
+**Finding 6 — 108 Negative Billing Records Flagged**
+Total value: **-$130,472**. Likely insurance credits or refunds. Retained for audit, excluded from financial aggregations.
+
+</details>
+
+---
+
+## 🔄 Project Workflow
+
 ```
-📥 Raw CSV (55,500 rows)
-        │
-        ▼
-🧹 01_data_cleaning.ipynb
-   ├── Fix name casing
-   ├── Parse dates
-   ├── Flag negative billing (108 records)
-   └── Engineer 11 new columns
-        │
-        ▼
-✅ healthcare_cleaned.csv (26 columns)
-        │
-   ┌────┴────────────────┬──────────────────┐
-   ▼                     ▼                  ▼
-👥 Demographics      🦠 Diagnosis       💰 Financial
-   Age · Gender         Conditions         Billing · Insurers
-   Blood type           YoY trends         Correlations
-   Admission type       Seasonality        High-cost patients
-   │                     │                  │
-   └─────────────────────┴──────────────────┘
-                          │
-               ┌──────────┴──────────┐
-               ▼                     ▼
-          🗄️ SQL Layer          📊 Power BI
-    Schema + 22 Queries       4-page Dashboard
-       6 Views                40+ DAX Measures
-               │                     │
-               └──────────┬──────────┘
-                          ▼
-              📋 Business Report PDF
+Raw CSV (55,500 rows)
+        |
+        v
+01_data_cleaning.ipynb
+   |-- Fix name casing
+   |-- Parse dates
+   |-- Flag negative billing (108 records)
+   |-- Engineer 11 new columns
+        |
+        v
+healthcare_cleaned.csv (26 columns)
+        |
+   -----+-------------------+------------------+
+   |                        |                  |
+   v                        v                  v
+Demographics            Diagnosis          Financial
+Age, Gender             Conditions         Billing, Insurers
+Blood type              YoY trends         Correlations
+Admission type          Seasonality        High-cost patients
+   |                        |                  |
+   +------------------------+------------------+
+                            |
+               +------------+------------+
+               |                         |
+               v                         v
+          SQL Layer                  Power BI
+    Schema + 22 Queries           4-page Dashboard
+         6 Views                  40+ DAX Measures
+               |                         |
+               +------------+------------+
+                            |
+                            v
+              Business Report PDF
               12-page Executive Report
 ```
+
 ---
-📁 Project Structure
+
+## 📁 Project Structure
+
 ```
 Healthcare-Diagnosis-Financial-Analysis/
-│
-├── 📂 data/
-│   ├── raw/
-│   │   └── healthcare_dataset.csv          # Original dataset (55,500 rows, 15 cols)
-│   └── processed/
-│       └── healthcare_cleaned.csv          # Cleaned dataset (55,500 rows, 26 cols)
-│
-├── 📓 notebooks/
-│   ├── 01_data_cleaning.ipynb              # Cleaning, validation, feature engineering
-│   ├── 02_eda_demographics.ipynb           # Age, gender, blood type, admission type
-│   ├── 03_eda_diagnosis.ipynb              # Condition trends, outcomes, seasonality
-│   └── 04_eda_financial.ipynb              # Billing, cost, insurance, correlations
-│
-├── 🗄️ sql/
-│   ├── 01_schema_setup.sql                 # Normalised schema — 8 tables + indexes
-│   ├── 02_diagnosis_queries.sql            # 10 diagnosis analytical queries
-│   ├── 03_financial_queries.sql            # 12 financial analytical queries
-│   └── 04_views.sql                        # 6 reusable views for Power BI
-│
-├── 📊 dashboard/
-│   └── healthcare_diagnosis_dashboard.pbix # Power BI dashboard (4 pages, 40+ DAX)
-│
-├── 📋 reports/
-│   ├── Healthcare_Diagnosis_Financial_Report.pdf
-│   ├── PowerBI_DAX_Guide.docx
-│   └── figures/                            # All chart exports (12 charts)
-│
-├── requirements.txt
-└── README.md
+|
+|-- data/
+|   |-- raw/
+|   |   |-- healthcare_dataset.csv          # Original dataset (55,500 rows, 15 cols)
+|   |-- processed/
+|       |-- healthcare_cleaned.csv          # Cleaned dataset (55,500 rows, 26 cols)
+|
+|-- notebooks/
+|   |-- 01_data_cleaning.ipynb              # Cleaning, validation, feature engineering
+|   |-- 02_eda_demographics.ipynb           # Age, gender, blood type, admission type
+|   |-- 03_eda_diagnosis.ipynb              # Condition trends, outcomes, seasonality
+|   |-- 04_eda_financial.ipynb              # Billing, cost, insurance, correlations
+|
+|-- sql/
+|   |-- 01_schema_setup.sql                 # Normalised schema — 8 tables + indexes
+|   |-- 02_diagnosis_queries.sql            # 10 diagnosis analytical queries
+|   |-- 03_financial_queries.sql            # 12 financial analytical queries
+|   |-- 04_views.sql                        # 6 reusable views for Power BI
+|
+|-- dashboard/
+|   |-- healthcare_diagnosis_dashboard.pbix # Power BI dashboard (4 pages, 40+ DAX)
+|
+|-- reports/
+|   |-- Healthcare_Diagnosis_Financial_Report.pdf
+|   |-- PowerBI_DAX_Guide.docx
+|   |-- figures/                            # All chart exports (12 charts)
+|
+|-- requirements.txt
+|-- README.md
 ```
+
 ---
-📓 Notebooks
-`01_data_cleaning.ipynb`
-> Input: `healthcare_dataset.csv` (15 cols) → Output: `healthcare_cleaned.csv` (26 cols)
-🐛 Issue Found	✅ Fix Applied
-Inconsistent name casing (`Bobby JacksOn`)	`.str.title()` on Name, Doctor
-Dates stored as strings	Converted to `datetime64`
-108 negative billing records	Flagged as `refund_or_credit`, retained
-No length of stay column	Engineered `length_of_stay` in days
-No age segmentation	`age_group` with 4 bins
-No time components	Year, month, quarter, day of week
-No cost efficiency metric	`cost_per_day = billing ÷ LOS`
-No outcome encoding	`test_result_score`: 0 / 1 / 2
-No high-cost identifier	`high_billing_flag` at 90th percentile
-`02_eda_demographics.ipynb`
-> 6 visualisations — age distribution, gender by condition, blood type heatmap, admission type breakdown, day-of-week patterns, age group × condition matrix.
-`03_eda_diagnosis.ipynb`
-> 5 visualisations — condition frequency, YoY trends (2019–2024), monthly seasonality heatmap, test result outcomes, medication usage, length of stay boxplots.
-`04_eda_financial.ipynb`
-> 6 visualisations — billing by condition, insurance revenue, billing vs LOS scatter, admission type financial impact, high-cost patient segment, cost-per-day analysis.
+
+## 📓 Notebooks
+
+### `01_data_cleaning.ipynb`
+> Input: `healthcare_dataset.csv` (15 cols) — Output: `healthcare_cleaned.csv` (26 cols)
+
+| Issue Found | Fix Applied |
+|:---|:---|
+| Inconsistent name casing (`Bobby JacksOn`) | `.str.title()` on Name, Doctor |
+| Dates stored as strings | Converted to `datetime64` |
+| 108 negative billing records | Flagged as `refund_or_credit`, retained |
+| No length of stay column | Engineered `length_of_stay` in days |
+| No age segmentation | `age_group` with 4 bins |
+| No time components | Year, month, quarter, day of week |
+| No cost efficiency metric | `cost_per_day = billing / LOS` |
+| No outcome encoding | `test_result_score`: 0 / 1 / 2 |
+| No high-cost identifier | `high_billing_flag` at 90th percentile |
+
+### `02_eda_demographics.ipynb`
+6 visualisations — age distribution, gender by condition, blood type heatmap, admission type breakdown, day-of-week patterns, age group x condition matrix.
+
+### `03_eda_diagnosis.ipynb`
+5 visualisations — condition frequency, YoY trends (2019-2024), monthly seasonality heatmap, test result outcomes, medication usage, length of stay boxplots.
+
+### `04_eda_financial.ipynb`
+6 visualisations — billing by condition, insurance revenue, billing vs LOS scatter, admission type financial impact, high-cost patient segment, cost-per-day analysis.
+
 ---
-🗄️ SQL Layer
-Schema — 8 Normalised Tables
+
+## 🗄️ SQL Layer
+
+### Schema — 8 Normalised Tables
+
 ```
-patients · admissions · billing · hospitals
-doctors · medical_conditions · insurance_providers · medications
+patients | admissions | billing | hospitals | doctors | medical_conditions | insurance_providers | medications
 ```
-Sample — Diagnosis Query
+
+### Sample — Diagnosis Query
+
 ```sql
 -- Top diagnoses by frequency with ranking
 SELECT
@@ -164,7 +228,9 @@ FROM healthcare
 GROUP BY medical_condition
 ORDER BY patient_count DESC;
 ```
-Sample — Financial Query
+
+### Sample — Financial Query
+
 ```sql
 -- Insurance provider revenue and avg claim
 SELECT
@@ -178,23 +244,33 @@ WHERE billing_flag = 'normal'
 GROUP BY insurance_provider
 ORDER BY total_revenue_millions DESC;
 ```
-Views (`04_views.sql`) — 6 Reusable Views
-View	Purpose
-`vw_executive_kpis`	Power BI Page 1 — KPI card data
-`vw_diagnosis_cost_summary`	Condition-level cost + outcome metrics
-`vw_insurer_performance`	Revenue, volume, avg claim per insurer
-`vw_monthly_admission_trends`	Time-series data for line charts
-`vw_high_billing_patients`	Top 10% billing patient list
-`vw_patient_demographics`	Age, gender, condition breakdown
+
+### Views — 6 Reusable for Power BI
+
+| View | Purpose |
+|:---|:---|
+| `vw_executive_kpis` | Power BI Page 1 — KPI card data |
+| `vw_diagnosis_cost_summary` | Condition-level cost + outcome metrics |
+| `vw_insurer_performance` | Revenue, volume, avg claim per insurer |
+| `vw_monthly_admission_trends` | Time-series data for line charts |
+| `vw_high_billing_patients` | Top 10% billing patient list |
+| `vw_patient_demographics` | Age, gender, condition breakdown |
+
 ---
-📊 Power BI Dashboard
-4-page interactive dashboard · 40+ DAX measures · 6 cross-page slicers
-Page	Title	Key Visuals
-1	🏠 Executive Summary	KPI cards, condition pie, YoY line, revenue bar
-2	🦠 Diagnosis Overview	Frequency bar, test results stacked, seasonality heatmap, treemap
-3	💰 Financial Performance	Insurer revenue, billing scatter, high-cost table, cost/day bar
-4	👥 Patient Demographics	Age group bar, gender donut, blood type heatmap, day-of-week bar
-Sample DAX Measures
+
+## 📊 Power BI Dashboard
+
+**4-page interactive dashboard · 40+ DAX measures · 6 cross-page slicers**
+
+| Page | Title | Key Visuals |
+|:---:|:---|:---|
+| 1 | Executive Summary | KPI cards, condition pie, YoY line, revenue bar |
+| 2 | Diagnosis Overview | Frequency bar, test results stacked, seasonality heatmap, treemap |
+| 3 | Financial Performance | Insurer revenue, billing scatter, high-cost table, cost/day bar |
+| 4 | Patient Demographics | Age group bar, gender donut, blood type heatmap, day-of-week bar |
+
+### Sample DAX Measures
+
 ```dax
 Total Revenue     = CALCULATE(SUM(healthcare[billing_amount]), healthcare[billing_flag] = "normal")
 Abnormal Rate %   = DIVIDE([Abnormal Count], [Total Patients]) * 100
@@ -202,32 +278,46 @@ Revenue YoY %     = DIVIDE([Total Revenue] - [Revenue PY], [Revenue PY]) * 100
 Revenue PY        = CALCULATE([Total Revenue], SAMEPERIODLASTYEAR(healthcare[admission_date]))
 Condition Rank    = RANKX(ALL(healthcare[medical_condition]), [Total Revenue],, DESC)
 ```
+
 ---
-📋 Business Report
-12-page executive PDF generated with Python ReportLab:
-📌 Executive Summary — colour-coded insight boxes, KPI cards
-📂 Dataset Overview — schema, column types, YoY patient volume
-👥 Patient Demographics — age groups, gender, admission type analysis
-🦠 Diagnosis Trends — condition stats, test outcomes, medication usage
-💰 Financial Performance — billing analysis, LOS correlation, cost per day
-🏦 Insurance Provider Analysis — revenue share, avg claims, volume
-💡 8 Key Findings — F1–F8 colour-coded insight cards
-✅ 6 Business Recommendations — actionable next steps
-📚 Appendix — full data dictionary (26 columns with formulas)
+
+## 📋 Business Report
+
+**12-page executive PDF** generated with Python ReportLab:
+
+| Section | Content |
+|:---|:---|
+| Executive Summary | Colour-coded insight boxes, KPI cards |
+| Dataset Overview | Schema, column types, YoY patient volume |
+| Patient Demographics | Age groups, gender, admission type analysis |
+| Diagnosis Trends | Condition stats, test outcomes, medication usage |
+| Financial Performance | Billing analysis, LOS correlation, cost per day |
+| Insurance Analysis | Revenue share, avg claims, volume |
+| Key Findings | F1-F8 colour-coded insight cards |
+| Recommendations | 6 actionable next steps |
+| Appendix | Full data dictionary (26 columns with formulas) |
+
 ---
-⚙️ Setup & Installation
-Prerequisites
-```bash
+
+## ⚙️ Setup & Installation
+
+### Prerequisites
+
+```
 Python 3.10+
 Jupyter Notebook
 Power BI Desktop   # for .pbix file
 PostgreSQL         # optional — SQLite/DuckDB also works
 ```
-Install Dependencies
+
+### Install Dependencies
+
 ```bash
 pip install pandas numpy matplotlib seaborn reportlab jupyter
 ```
-Run the Project
+
+### Run the Project
+
 ```bash
 # Step 1: Place dataset
 cp healthcare_dataset.csv data/raw/
@@ -245,24 +335,39 @@ duckdb < sql/02_diagnosis_queries.sql
 # Step 4: Open Power BI dashboard
 # Open dashboard/healthcare_diagnosis_dashboard.pbix in Power BI Desktop
 
-# Step 5: View the report
+# Step 5: View report
 open reports/Healthcare_Diagnosis_Financial_Report.pdf
 ```
+
 ---
-🛠️ Tools & Technologies
+
+## 🛠️ Tools & Technologies
+
 <div align="center">
-Category	Tools
-🐍 Python	Pandas · NumPy · Matplotlib · Seaborn · ReportLab
-🗄️ SQL	PostgreSQL · SQLite · DuckDB
-📊 BI	Power BI · DAX · Data Modelling
-📓 Notebooks	Jupyter · EDA Pipelines
+
+| Category | Tools |
+|:---:|:---|
+| Python | Pandas · NumPy · Matplotlib · Seaborn · ReportLab |
+| SQL | PostgreSQL · SQLite · DuckDB |
+| BI | Power BI · DAX · Data Modelling |
+| Notebooks | Jupyter · EDA Pipelines |
+
 </div>
+
 ---
-📂 Topics
-`healthcare-analytics` · `data-analysis` · `python` · `sql` · `power-bi` · `eda` · `pandas` · `matplotlib` · `seaborn` · `jupyter-notebook` · `reportlab` · `data-visualization` · `business-intelligence` · `portfolio-project`
+
+## 📂 Topics
+
+`healthcare-analytics` `data-analysis` `python` `sql` `power-bi` `eda` `pandas` `matplotlib` `seaborn` `jupyter-notebook` `reportlab` `data-visualization` `business-intelligence` `portfolio-project`
+
 ---
+
 <div align="center">
-Healthcare Diagnosis & Financial Analysis
-Made with ❤️ by Akash Mishra · 2024
-⭐ If you found this project useful, consider giving it a star!
+
+**Healthcare Diagnosis & Financial Analysis**
+
+Made with ❤️ by **Akash Mishra** · 2024
+
+⭐ *If you found this project useful, consider giving it a star!*
+
 </div>
